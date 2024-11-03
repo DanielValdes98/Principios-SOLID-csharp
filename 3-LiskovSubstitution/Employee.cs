@@ -11,6 +11,6 @@ namespace Liskov
             HoursWorked = hoursWorked;
         }  
 
-        public abstract decimal CalculateSalary(bool IsFullTime);
+        public abstract decimal CalculateSalary();
     }
 }

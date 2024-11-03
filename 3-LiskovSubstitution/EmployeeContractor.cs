@@ -2,7 +2,7 @@ namespace Liskov
 {
     public class EmployeeContractor : Employee
     {
-        public EmployeeContractor(string fullname, int hoursWorked) : base(fullname, hoursWorked, extrahours)
+        public EmployeeContractor(string fullname, int hoursWorked) : base(fullname, hoursWorked)
         {
         }
 
@@ -10,6 +10,6 @@ namespace Liskov
         {   
             decimal hourValue = 40;
             return hourValue * (HoursWorked);
-        } 
+        }
     }
 }
